@@ -1,379 +1,329 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sujit Kargal</title>
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio Dashboard</title>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
-
-
-<link rel="stylesheet" href="main.css">
-</head>
-<body>
- 
-    
-
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
-
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#" style="color: red; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 30px;">Sujit Kargal</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active nav_link" aria-current="page" href="#about">About</a>
-              <a class="nav-link nav_link" href="#services" data-target="services">Services</a>
-              <a class="nav-link nav_link" href="#skills" data-target="skills">Skills</a>
-              <a class="nav-link nav_link" href="#projects" data-target="projects">Projects</a>
-              
-              <div id="logoContainer">
-              <a  class="btn btn-primary" href="./resume.pdf" download>Download Resume</a>
-            </div>
-               
-            </div>
-        </div>
-        
-
-
-          
-          </div>
-  
-          </div>
-        </div>
-      </nav>
-
-<div class="container">
-
-  
-  <div class="profilePhoto">
-
-    <!-- <img src="https://github.com/sujitkargal/sujit-kargal/blob/main/img1.png?raw=true" alt=""> -->
-    <img src="./img/img1.png"alt="">
-
-        </div>
-        
-  
-  <div class="info">
-<p ><h1 style="font-weight: bold; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: red ; ">Welcome !</h1> " I bring your ideas to life through innovation coding solution. "</p>
-   
-<footer class="container_foot"> 
- <a href="https://www.instagram.com/sujitk_16/" class="social_media"> <i class="fa-brands fa-instagram"></i></a>
- <a href="https://wa.me/9325510946" class="social_media"> <i class="fa-brands fa-whatsapp"></i></a>
- <a href="https://www.facebook.com/sujit.kargal.1" class="social_media"><i class="fa-brands fa-facebook"></i></a>
- <a href="https://www.linkedin.com/in/sujit-kargal-924348263?originalSubdomain=in" class="social_media"><i class="fa-brands fa-linkedin-in"></i></a>
- <!-- <a href="" class="social_media"> <img src="" alt="nokari"></a> -->
-
- <div id="loaderContainer" class="mt-3">
-  <div class="loader"></div>
-  <div class="loader"></div>
-  <div class="loader"></div>
-  <div class="loader"></div>
-  <div class="loader"></div>
-</div>
-
-
-<button class="Btn4" onclick="toggleLike(this)" data-liked="false">
-  <span class="leftContainer">
-    <svg fill="white" viewBox="0 0 512 512" height="1em" xmlns="http://www.w3.org/2000/svg">
-      <path d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"></path>
-    </svg>
-    <span class="like">Like</span>
-  </span>
-  <span class="likeCount">288</span>
-</button>
-
-
-</footer>
-</div>
-</div>
-
-
-<div id="about" class="heading fade-in">
- <div id="about1">
-  <h2>About Me</h2>
-  <div class="about-content">
-    <p>
-      I am a passionate developer committed to crafting innovative solutions that address real-world challenges. 
-      With expertise in various programming languages and frameworks, I thrive on transforming ideas into functional applications.
-    </p>
-  </div>
-  <div class="about-content hide-on-small">
-    <p>
-      I hold a Bachelor of Computer Applications (BCA) and am set to graduate in 2024. After completing a six-month internship at Passion Infotech, 
-      I gained valuable hands-on experience in front-end development. 
-      I also worked as a freelancer teaching web development and C programming at Liveware Classes in Wagholi, Pune.
-    </p>
-  </div>
-  <div class="about-content hide-on-small">
-    <p>
-      Always eager to learn and embrace new technologies, I ensure my work remains relevant in an ever-evolving landscape. 
-      When I’m not coding, I enjoy contributing to open-source projects and engaging in collaborative discussions with fellow developers.
-    </p>
-  </div>
-</div> 
-</div>
-
-
-<div class="tab-navigation">
-  <button class="tab-button active btn1" data-tab="services">Services</button>
-  <button class="tab-button btn1" data-tab="skills">Skills</button>
-  <button class="tab-button btn1" data-tab="projects">Projects</button>
-</div>
-
-<!-- Services Section -->
-<div id="services" class="heading section tab-content active">
-  <h2>Services</h2>
-  <section class="contain">
-    <div class="service-card">
-      <i class="fas fa-laptop-code service-logo"></i>
-      <h3>Website Development</h3>
-      <p>Creating responsive and functional websites tailored to your needs, ensuring an optimal user experience.</p>
-    </div>
-
-    <div class="service-card">
-      <i class="fas fa-chalkboard-teacher service-logo"></i>
-      <h3>Freelance Teaching</h3>
-      <p>Offering personalized tutoring sessions in web development, programming languages, and software engineering concepts.</p>
-    </div>
-
-    <div class="service-card">
-      <i class="fas fa-project-diagram service-logo"></i>
-      <h3>Paid Projects</h3>
-      <p>Engaging in paid projects that leverage my skills to deliver high-quality software solutions and applications.</p>
-    </div>
-
-   
-
-    <div class="service-card">
-      <i class="fas fa-cogs service-logo"></i>
-      <h3>System Integration</h3>
-      <p>Ensuring seamless integration of various software systems to improve operational efficiency.</p>
-    </div>
-
-    <div class="service-card">
-      <i class="fas fa-robot service-logo"></i>
-      <h3>AI Solutions</h3>
-      <p>Developing AI-driven solutions to automate tasks and improve decision-making processes.</p>
-    </div>
-  </section>
-</div>
-
-
-<div id="skills" class="heading section tab-content ">
-  <h2>Skills</h2>
-  <div class="skills-table">
-    <h3>Technical Skills</h3>
-    <div class="skills-row">
-      <div class="skill-card"><i class="fab fa-java icon"></i><h5>Java</h5></div>
-      <div class="skill-card"><i class="fab fa-python icon"></i><h5>Python</h5></div>
-      <div class="skill-card"><i class="fab fa-js-square icon"></i><h5>JavaScript</h5></div>
-      <div class="skill-card"><i class="fab fa-cuttlefish icon"></i><h5>C++</h5></div>
-      <div class="skill-card"><i class="fab fa-git icon"></i><h5>Git</h5></div>
-      <div class="skill-card"><i class="fas fa-database icon"></i><h5>MySQL</h5></div>
-      <div class="skill-card"><i class="fas fa-database icon"></i><h5>PostgreSQL</h5></div>
-      <div class="skill-card"><i class="fas fa-database icon"></i><h5>SQLite</h5></div>
-      <div class="skill-card"><i class="fab fa-trello icon"></i><h5>Jira</h5></div>
-      <div class="skill-card"><i class="fas fa-robot icon"></i><h5>Machine Learning</h5></div>
-      <div class="skill-card"><i class="fas fa-brain icon"></i><h5>Artificial Intelligence</h5></div>
-      <div class="skill-card"><i class="fab fa-html5 icon"></i><h5>HTML</h5></div>
-      <div class="skill-card"><i class="fab fa-css3 icon"></i><h5>CSS</h5></div>
-      <div class="skill-card"><i class="fab fa-jquery icon"></i><h5>jQuery</h5></div>
-    </div>
-  </div>
-
-  <div class="skills-column">
-    <h3>Soft Skills</h3>
-    <div class="skills-row">
-      <div class="skill-card"><i class="fas fa-comments icon"></i><h5>Communication</h5></div>
-      <div class="skill-card"><i class="fas fa-lightbulb icon"></i><h5>Problem Solving</h5></div>
-    </div>
-  </div>
-</div>
-</div>
-
-<!-- Projects Section -->
-<div id="projects" class="heading section tab-content ">
-  <h2>Projects</h2>
-  <section class="contain">
-    <div class="project-card">
-      <i class="fas fa-hospital-alt project-logo"></i>
-      <h3>Hospital Management System</h3>
-      <p>Developed a comprehensive hospital management system that streamlines patient registration, appointment scheduling, and billing processes. The system features a user-friendly interface for both staff and patients, improving overall efficiency and service quality.</p>
-    </div>
-
-    <div class="project-card">
-      <i class="fas fa-users project-logo"></i>
-      <h3>HR Management System</h3>
-      <p>Created an HR management system to manage employee records, payroll, and performance evaluations efficiently. The system automates routine HR tasks, provides analytics on employee performance, and enhances communication within the organization.</p>
-    </div>
-
-    <div class="project-card">
-      <i class="fas fa-book project-logo"></i>
-      <h3>Library Management System</h3>
-      <p>Designed a library management system to automate book lending, returning, and cataloging processes, improving user experience. The system includes features like search functionality, user accounts, and overdue notifications, making it easier to manage library operations.</p>
-    </div>
-
-    <div class="project-card">
-      <i class="fas fa-shopping-cart project-logo"></i>
-      <h3>Online Bookstore Management</h3>
-      <p>Developed an online bookstore platform that allows users to browse, search, and purchase books with secure payment options. The platform features user reviews, recommendations, and an intuitive interface to enhance the shopping experience.</p>
-    </div>
-
-    <div class="project-card">
-      <i class="fas fa-microphone-alt project-logo"></i>
-      <h3>AI Voice Model</h3>
-      <p>Built an AI voice model capable of understanding and responding to user queries, along with training it for improved accuracy. This project involved natural language processing and machine learning techniques to enhance user interaction through voice commands.</p>
-    </div>
-
-   
-
-   
-    <div class="project-card">
-      <i class="fas fa-portfolio project-logo"></i>
-      <h3>Portfolio Website</h3>
-      <p>Designed and developed a personal portfolio website to showcase my projects, skills, and achievements. The site is fully responsive and highlights my work through interactive elements and a clean layout.</p>
-    </div>
-  </section>
-</div>
-
-<center>
-  <h1>Leave message</h1>
-<div class="form-container">
-      <form class="form" id="form">
-        <div class="form-group">
-          <label for="email">Name</label>
-          <input type="text" id="name" name="name" required="">
-        </div>
-        <div class="form-group">
-          <label for="email"> Email</label>
-          <input type="mail" id="email" name="email" required="">
-        </div>
-        <div class="form-group">
-          <label for="textarea">Message</label>
-          <textarea name="textarea" id="textarea" rows="10" cols="50" required="">          </textarea>
-        </div>
-        <button class="form-submit-btn" type="submit">Submit</button>
-       
-      </form>
-    </div>
-
-  </center>
-
-
-
-
-
-
-<footer>
-  <footer class="bg-dark  text-white text-center py-4" >
-    
-        <p>&copy; 2024 Sujit Kargal. All rights reserved.</p> <br>
-        <div>
-            <a href="https://github.com/sujitkargal" class="text-white me-3" target="_blank"><i class="fab fa-github"></i></a>
-            <a href="https://twitter.com/yourprofile" class="text-white me-3" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.linkedin.com/in/sujit-kargal-924348263?originalSubdomain=in" class="text-white" target="_blank"><i class="fab fa-linkedin"></i></a>
-        </div>
-    
-</footer>
-
-
-
-    
-
-  <!-- <script src="./db.js"></script> -->
-  <script src="./script.js"></script>
-
-  <script type="module">
- 
-import { initializeApp } from "https://www.gstatic.com/firebasejs/9.20.0/firebase-app.js";
-import { getDatabase, ref, push, set } from "https://www.gstatic.com/firebasejs/9.20.0/firebase-database.js";
-
-// Your Firebase configuration
-const firebaseConfig = {
-    apiKey: "AIzaSyAqU8zjSVJW2ZQwtqmH1pblJi9abuwEi20",
-    authDomain: "sujit-portfolio.firebaseapp.com",
-    databaseURL: "https://sujit-portfolio-default-rtdb.firebaseio.com",
-    projectId: "sujit-portfolio",
-    storageBucket: "sujit-portfolio.appspot.com",
-    messagingSenderId: "499609286187",
-    appId: "1:499609286187:web:11496e60a3a5a0a2d89c6e"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const database = getDatabase(app);
-const contactFormRef = ref(database, 'contactform');
-
-document.addEventListener('DOMContentLoaded', () => {
-    document.getElementById('form').addEventListener("submit", submitForm);
-});
-
-function submitForm(e) {
-    e.preventDefault();
-
-    const name = getElementVal('name');
-    const email = getElementVal('email');
-    const message = getElementVal('textarea');
-
-    const newContactRef = push(contactFormRef);
-    
-    // Save data to Firebase
-    set(newContactRef, {
-        name: name,
-        email: email,
-        message: message
-    }).then(() => {
-        // Clear the form fields
-        document.getElementById('form').reset();
-
-        // Show success SweetAlert
-        swal({
-            title: "Success!",
-            text: "Your message has been sent!",
-            icon: "success",
-            button: "OK",
-        });
-    }).catch((error) => {
-        console.error('Error saving data: ', error);
-        // Show error SweetAlert
-        swal({
-            title: "Error!",
-            text: "There was a problem sending your message.",
-            icon: "error",
-            button: "Try Again",
-        });
-    });
+<style>
+body {
+  background: #0f172a;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  background: #111827;
+  padding: 20px;
+}
+.sidebar a {
+  display: block;
+  color: #9ca3af;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+.sidebar a:hover {
+  background: #1f2937;
+  color: #fff;
+}
+.main {
+  margin-left: 260px;
+  padding: 20px;
+}
+.card {
+  background: #1e293b;
+  border: none;
+  border-radius: 15px;
+  color: #fff;
+}
+.btn-custom {
+  background: #3b82f6;
+  border: none;
+}
+.btn-custom:hover {
+  background: #2563eb;
 }
 
-const getElementVal = (id) => {
-    return document.getElementById(id).value; // Use 'value' (lowercase)
-};
+/* Social Icon Hover Effects */
+.social-icon {
+  transition: all 0.3s ease;
+}
+.social-icon:hover {
+  transform: scale(1.2) translateY(-3px);
+}
 
-// Add event listener for form submission
-document.addEventListener('DOMContentLoaded', () => {
-    document.getElementById('form').addEventListener("submit", submitForm);
+.instagram:hover { color: #E1306C; }
+.whatsapp:hover { color: #25D366; }
+.linkedin:hover { color: #0077b5; }
+.github:hover { color: #ccc; }
+.naukri:hover { color: #f59e0b; }
+.progress {
+  height: 8px;
+  background: #374151;
+}
+.progress-bar {
+  background: #3b82f6;
+}
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease;
+}
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+</style>
+</head>
+
+<body>
+
+<!-- Loader -->
+<div id="loader" style="position:fixed;width:100%;height:100%;background:#0f172a;display:flex;justify-content:center;align-items:center;z-index:9999;flex-direction:column;">
+  <h1 id="logoText" style="font-weight:700;letter-spacing:2px;opacity:0;transform:scale(0.8);transition:all 0.6s ease;">Sujit Kargal</h1>
+  <div class="spinner-border text-primary mt-3" style="width:2.5rem;height:2.5rem;"></div>
+</div>
+</div>
+
+<!-- Sidebar -->
+<div class="sidebar">
+  <h4>Sujit Kargal</h4>
+  <p class="text-muted">Java Developer</p>
+  <a href="#home"><i class="bi bi-house"></i> Home</a>
+  <a href="#about"><i class="bi bi-person"></i> About</a>
+  <a href="#skills"><i class="bi bi-gear"></i> Skills</a>
+  <a href="#projects"><i class="bi bi-folder"></i> Projects</a>
+  <a href="#contact"><i class="bi bi-envelope"></i> Contact</a>
+</div>
+
+<!-- Main Content -->
+<div class="main">
+
+<!-- Hero -->
+<div id="home" class="card p-4 mb-4 fade-in">
+  <div class="row align-items-center">
+    <div class="col-md-6">
+      <h1>Hi, I'm Sujit!</h1>
+      <h4 class="text-primary">Java & Spring Boot Developer</h4>
+      <p>I build scalable web applications using modern technologies.</p>
+      <button class="btn btn-custom me-2">Download Resume</button>
+      <button class="btn btn-outline-light me-3">Contact Me</button>
+
+      <!-- Social Icons beside buttons -->
+      <span>
+        <a href="#" class="social-icon instagram me-2 fs-5"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="social-icon whatsapp me-2 fs-5"><i class="bi bi-whatsapp"></i></a>
+        <a href="#" class="social-icon linkedin me-2 fs-5"><i class="bi bi-linkedin"></i></a>
+        <a href="#" class="social-icon naukri me-2 fs-5"><i class="bi bi-briefcase"></i></a>
+        <a href="#" class="social-icon github fs-5"><i class="bi bi-github"></i></a>
+      </span>
+    </div>
+    <div class="col-md-6 text-center">
+      <img src="https://via.placeholder.com/250" class="img-fluid rounded" />
+    </div>
+  </div>
+</div>
+
+<!-- About -->
+<div id="about" class="card p-4 mb-4 fade-in">
+  <h3>About Me</h3>
+  <p>Aspiring developer skilled in Java, Spring Boot, SQL and web technologies.</p>
+</div>
+
+<!-- Skills -->
+<div id="skills" class="card p-4 mb-4 fade-in">
+  <h3>Technical Skills</h3>
+
+  <div class="row g-4">
+
+    <!-- Languages -->
+    <div class="col-md-6">
+      <div class="card p-3 h-100">
+        <h5><i class="bi bi-code-slash me-2"></i>Languages</h5>
+        <p class="text-muted mb-2">C#, Java, Python, JavaScript, SQL, C++, PHP</p>
+        <div class="d-flex flex-wrap gap-2">
+          <span class="badge bg-primary">C#</span>
+          <span class="badge bg-primary">Java</span>
+          <span class="badge bg-primary">Python</span>
+          <span class="badge bg-primary">JavaScript</span>
+          <span class="badge bg-primary">SQL</span>
+          <span class="badge bg-primary">C++</span>
+          <span class="badge bg-primary">PHP</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Frameworks -->
+    <div class="col-md-6">
+      <div class="card p-3 h-100">
+        <h5><i class="bi bi-box me-2"></i>Frameworks & Libraries</h5>
+        <p class="text-muted mb-2">ASP.NET Core, Spring Boot, Entity Framework, .NET MVC</p>
+        <div class="d-flex flex-wrap gap-2">
+          <span class="badge bg-success">ASP.NET Core</span>
+          <span class="badge bg-success">Spring Boot</span>
+          <span class="badge bg-success">Entity Framework</span>
+          <span class="badge bg-success">.NET MVC</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Databases -->
+    <div class="col-md-6">
+      <div class="card p-3 h-100">
+        <h5><i class="bi bi-database me-2"></i>Databases</h5>
+        <p class="text-muted mb-2">SQL Server, MySQL, PostgreSQL</p>
+        <div class="d-flex flex-wrap gap-2">
+          <span class="badge bg-info text-dark">SQL Server</span>
+          <span class="badge bg-info text-dark">MySQL</span>
+          <span class="badge bg-info text-dark">PostgreSQL</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fundamentals -->
+    <div class="col-md-6">
+      <div class="card p-3 h-100">
+        <h5><i class="bi bi-lightbulb me-2"></i>Fundamentals</h5>
+        <p class="text-muted mb-2">DSA, OOP, DBMS</p>
+        <div class="d-flex flex-wrap gap-2">
+          <span class="badge bg-warning text-dark">DSA</span>
+          <span class="badge bg-warning text-dark">OOP</span>
+          <span class="badge bg-warning text-dark">DBMS</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tools -->
+    <div class="col-md-6">
+      <div class="card p-3 h-100">
+        <h5><i class="bi bi-tools me-2"></i>Cloud & Tools</h5>
+        <p class="text-muted mb-2">Git, Visual Studio, VS Code</p>
+        <div class="d-flex flex-wrap gap-2">
+          <span class="badge bg-secondary">Git</span>
+          <span class="badge bg-secondary">Visual Studio</span>
+          <span class="badge bg-secondary">VS Code</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Practices -->
+    <div class="col-md-6">
+      <div class="card p-3 h-100">
+        <h5><i class="bi bi-diagram-3 me-2"></i>Development Practices</h5>
+        <p class="text-muted mb-2">Agile, Dependency Injection, REST APIs, Microservices</p>
+        <div class="d-flex flex-wrap gap-2">
+          <span class="badge bg-danger">Agile</span>
+          <span class="badge bg-danger">DI</span>
+          <span class="badge bg-danger">REST</span>
+          <span class="badge bg-danger">Microservices</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Projects -->
+<div id="projects" class="card p-4 mb-4 fade-in">
+  <h3>Projects</h3>
+  <div class="row g-4">
+
+    <div class="col-md-4">
+      <div class="card p-3 h-100">
+        <img src="https://via.placeholder.com/300x180" class="img-fluid rounded mb-3" />
+        <h5>Attendance Management System</h5>
+        <p class="text-muted">Web app to manage student attendance digitally with real-time tracking.</p>
+        <button class="btn btn-custom">View on GitHub</button>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card p-3 h-100">
+        <img src="https://via.placeholder.com/300x180" class="img-fluid rounded mb-3" />
+        <h5>HR Management System</h5>
+        <p class="text-muted">System to manage employee records, payroll, and HR operations efficiently.</p>
+        <button class="btn btn-custom">View on GitHub</button>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card p-3 h-100">
+        <img src="https://via.placeholder.com/300x180" class="img-fluid rounded mb-3" />
+        <h5>Portfolio Website</h5>
+        <p class="text-muted">Personal portfolio to showcase skills, projects, and professional profile.</p>
+        <button class="btn btn-custom">View on GitHub</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Contact -->
+<div id="contact" class="card p-4 fade-in">
+  <h3>Contact</h3>
+  <p>Email: sujit@example.com</p>
+  <p>Phone: +91 XXXXXXXX</p>
+
+  <!-- Social Icons -->
+  <div class="mt-3">
+    <a href="#" class="me-3 text-light fs-4"><i class="bi bi-instagram"></i></a>
+    <a href="#" class="me-3 text-light fs-4"><i class="bi bi-whatsapp"></i></a>
+    <a href="#" class="me-3 text-light fs-4"><i class="bi bi-linkedin"></i></a>
+    <a href="#" class="me-3 text-light fs-4"><i class="bi bi-briefcase"></i></a>
+    <a href="#" class="text-light fs-4"><i class="bi bi-github"></i></a>
+  </div>
+</div>
+
+</div>
+
+<!-- JS -->
+<script>
+// Smooth scroll
+const links = document.querySelectorAll('.sidebar a');
+links.forEach(link => {
+  link.addEventListener('click', function(e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+  });
 });
 
-   </script>
+// Fade animation on scroll
+const faders = document.querySelectorAll('.fade-in');
+window.addEventListener('scroll', () => {
+  faders.forEach(el => {
+    const top = el.getBoundingClientRect().top;
+    if(top < window.innerHeight - 50){
+      el.classList.add('show');
+    }
+  });
+});
+// Logo Animation + Page Loader
+window.addEventListener('load', function(){
+  const loader = document.getElementById('loader');
+  const logo = document.getElementById('logoText');
+
+  // Animate logo
+  setTimeout(()=>{
+    logo.style.opacity = '1';
+    logo.style.transform = 'scale(1)';
+  }, 200);
+
+  // Hide loader
+  setTimeout(() => {
+    loader.style.opacity = '0';
+    loader.style.transition = 'opacity 0.5s ease';
+    setTimeout(()=> loader.style.display = 'none', 500);
+  }, 1200);
+});
+
+</script>
 
 </body>
-
-
 </html>
